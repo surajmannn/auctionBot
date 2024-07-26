@@ -1,6 +1,5 @@
 ####################################################################################################
-# DO NOT CHANGE THE CODE IN THIS FILE. THIS IS THE EXACT FILE WE WILL USE TO MARK YOUR BOT
-# IF YOU CHANGE SOMETHING IN THIS FILE THEN YOUR BOT MIGHT NOT RUN PROPERLY WHEN WE MARK IT
+# DO NOT CHANGE THE CODE IN THIS FILE.
 ####################################################################################################
 
 import time
@@ -132,7 +131,6 @@ class Auctioneer(object):
                 raise
 
             # The unique id is the bot's name and the bot's number in this auction.
-            # For student submissions, the bot's name should be their warwick student id number, which can be used for marking
             # For test bots, you can use a name to remind you which bot is which
             # Adding a number to the bot's name means that you can use the same bot class more than once in an auction
             # Any errors are caught here, added to an error log and the error is raised again so that it stops the game
